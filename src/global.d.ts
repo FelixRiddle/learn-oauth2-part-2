@@ -15,11 +15,6 @@ declare module "express-session" {
 		userId?: number;
 		// User preferred language
 		language?: string;
-		
-		// TODO: This should be in the user information
-		theme?: string;
-		// TODO: This should be removed, and only store user id
-		user?: User;
 	}
 }
 
